@@ -1,0 +1,26 @@
+/**html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    /**Handled issue where container content were hidden under nav bar by adding some padding to the top of the <body>.**/
+    padding-top:1%;
+}**/
+
+ol, ul, li {
+    list-style: none;
+}
+
+/**FOR MOBILE VIEW**/
+.menu-toggle-name {
+  position: absolute;
+    bottom: -6px;
+    left: 8px;
+    font-size: 12px;
+    text-transform: lowercase;
+    color: #4eb7f5;
+}
+
+/**TOP NAVBAR**/
+
+.main-header {
+    padding: 10px 0;
+}
