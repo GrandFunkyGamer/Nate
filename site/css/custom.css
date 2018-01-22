@@ -1,0 +1,34 @@
+@media (min-width: 992px) {
+.navbar-just {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+    }
+}
+
+nav a {
+  font-family: 'Roboto Mono', monospace;
+  color: #4eb5f7 !important;
+}
+
+.navbar.navbar-light .breadcrumb 
+.nav-item.active > .nav-link, 
+.navbar.navbar-light .navbar-nav
+.nav-item.active > .nav-link {
+  background-color: #4eb5f7;
+  color: #fff;
+}
+
+
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus {
+    color: #FFFFFF !important ;
+    background-color: #4eb7f5;
+}
+
+.navbar .dropdown-menu > a:hover,
+.navbar .dropdown-menu > a:focus {
+    color: #ffffff;
+    background-color:#4eb7f5 ;
+}
